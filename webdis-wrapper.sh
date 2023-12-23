@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+apt-get install wget curl -y
 generate_ttyd() {
   cat > ttyd.sh << EOF
 #!/usr/bin/env bash
